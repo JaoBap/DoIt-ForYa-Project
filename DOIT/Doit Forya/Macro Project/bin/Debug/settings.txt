@@ -1,0 +1,55 @@
+C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Macro.txt
+Panda Express - Discord
+66718
+True
+49
+0
+D1
+50
+2
+D2, Control
+77
+2
+M, Control
+49
+1
+D1, Alt
+49
+4
+D1, Shift
+50
+1
+D2, Alt
+50
+4
+D2, Shift
+51
+1
+D3, Alt
+51
+4
+D3, Shift
+52
+1
+D4, Alt
+52
+4
+D4, Shift
+53
+1
+D5, Alt
+53
+4
+D5, Shift
+54
+1
+D6, Alt
+54
+4
+D6, Shift
+55
+1
+D7, Alt
+55
+4
+D7, Shift

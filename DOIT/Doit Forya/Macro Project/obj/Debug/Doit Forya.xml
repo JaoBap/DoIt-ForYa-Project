@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Doit Forya
+</name>
+</assembly>
+<members>
+<member name="T:Macro_Project.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Macro_Project.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Macro_Project.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Macro_Project.Hotkey.RegisterHotKey(System.IntPtr,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Declaration of winAPI function wrappers. The winAPI functions are used to register / unregister a hotkey
+ </summary>
+</member>
+<member name="T:Macro_Project.MainForm">
+ <summary>
+ Primary Objective: Get it to work in background for multitasking, first for keyboard, second for mouse
+ </summary>
+</member>
+</members>
+</doc>

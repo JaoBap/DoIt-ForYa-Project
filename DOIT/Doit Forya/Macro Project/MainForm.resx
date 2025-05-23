@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="DataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="File_Location_Loaded.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="State.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="File_Location.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FileLocation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Doit Forya was made as an easy to use Macro Program! Doit Forya Can do almost an unlimited amount of tasks. From Sending emails, to playing music on a virtual piano. 
+
+Example Code:
+(D)Space[5]{X=2037,Y=504}(U)Space
+
+In this provided example code, it shows all D.I.F.Y can do after it focused your Captured Window! This is how it works:
+
+Before all of this, you need to capture a window. To do this, click capture window on the Macro tab, and wait for it to beep. When it beeps, you can captured the last window you Focused (Clicked on). This window you capture is the window your macros will be used on. As of now, Macros do not work in background, meaning you can't alt tab or focus on other windows while the macro runs correctly.
+
+First, (D)Space holds down space.  The (D) represents that space needs to be held down. Space represents the key to hold down. To assign a specific key, please look towards the Windows API key link at the bottom.
+
+Second, [5] represents the delay before the next input,  in this case it is five seconds. (It only counts in seconds)
+
+Third, {X=2037,Y=504} moves your mouse to a specific position using resolution based corodinates. These corodinates can be captured using the capture mouse position hotkey in the settings. 
+
+Lastly, (U)Space lets go of your space key with the (U) command and key to let go being Space.
+
+Doit Forya was create by Jao Heinz Baptista
+</value>
+  </data>
+  <metadata name="filedialogLoadMacroMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="filedialogSaveMacroMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>208, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        +T0AAAAASUVORK5CYII=
+</value>
+  </data>
+</root>

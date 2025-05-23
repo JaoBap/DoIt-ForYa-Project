@@ -1,0 +1,4 @@
+macroname
+No Window!
+0
+False
