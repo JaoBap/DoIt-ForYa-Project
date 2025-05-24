@@ -10,21 +10,25 @@ Public Class classInput
                                                  ByVal dx As UInteger, ByVal dy As UInteger,
                                                  ByVal dwData As UInteger, ByVal dwExtraInfo As Integer)
 
-    Public Shared Function PostMessage(hWnd As IntPtr, msg As Integer, wParam As IntPtr, lParam As IntPtr) As IntPtr
+    Public Shared Function SendMessage(hWnd As IntPtr, msg As Integer, wParam As IntPtr, lParam As IntPtr) As IntPtr
     End Function
-    'In the future, send text needs to just send input of every character rather than just send text, 
     Public Shared Sub SendText(ByRef Text As String) 'extra
         Try
-            If Text <> String.Empty Then
-                Dim isim As New InputSimulator
-                isim.Keyboard.TextEntry(Text)
-            End If
+            Dim isim As New InputSimulator
+            isim.Keyboard.TextEntry(Text)
         Catch ex As Exception
-            Debug.Print(ex.ToString)
+            'MsgBox(Text + ex.ToString)
         End Try
     End Sub
+    Public Sub LogSendMessage(hWnd As IntPtr, msg As Integer, wParam As IntPtr)
+        WriteLog($"Sending Message: hWnd={hWnd}, msg={msg}, wParam={wParam}")
+    End Sub
 
-    Public Sub WriteLog(logEntry As String)
+    Public Sub LogResult(msg As Integer, result As IntPtr)
+        WriteLog($"Message {msg} Result: {result}")
+    End Sub
+
+    Public Sub WriteLog(logEntry As String)2
         Using writer As New StreamWriter("SendMessageLog.txt", True)
             writer.WriteLine($"{DateTime.Now}: {logEntry}")
         End Using
@@ -43,24 +47,21 @@ Public Class classInput
                 If VirtualKeyMessage = 1 Then
                     mouse_event(&H2, 0, 0, 0, 0)
                 Else
-                    'Dim isim As New InputSimulator 'to instantiate input for window
+                    Dim isim As New InputSimulator 'to instantiate input for window
+                    'sends input but its as if pressing a key, does not work to any application
+                    'to send input to a window thats not in focus, we have to use send message and post message
+                    'however both dont work, heres some theories why
 
-                    'the desire is to send input to a window even if it's not focused or "in the background".
-                    'to achieve this, we need to use send or post message, similar to auto hotkey
-                    'or find a plugin that achieves the functions of send or post message
-
-
-                    'Post message for some reason is only sending key on up key and on anywindow thats focused. Which is weird
-                    PostMessage(hWnd, WM_Keyaction, VirtualKeyMessage, IntPtr.Zero)
-                    Debug.Print(VirtualKeyMessage)
+                    'Doesnt send key but for some reason changes window name to last parameter
+                    SendMessage(hWnd, WM_Keyaction, VirtualKeyMessage, IntPtr.Zero)
 
                     'LogSendMessage(hWnd, WM_Keyaction, New IntPtr(VirtualKeyMessage))
-                    'LogResult (WM_Keyaction, SendMessage(hWnd, WM_Keyaction , New IntPtr(VirtualKeyMessage), IntPtr.Zero))
+                    'LogResult(WM_Keyaction, SendMessage(hWnd, WM_Keyaction, New IntPtr(VirtualKeyMessage), IntPtr.Zero))
 
 
 
                     ''Old which is not desired
-                    ''isim.Keyboard.KeyDown(VirtualKeyMessage)
+                    isim.Keyboard.KeyDown(VirtualKeyMessage)
 
                 End If
             End If
@@ -76,8 +77,8 @@ Public Class classInput
             If VirtualKeyMessage = 1 Then
                 mouse_event(&H4, 0, 0, 0, 0)
             Else
-                PostMessage(hWnd, WM_Keyaction, VirtualKeyMessage, IntPtr.Zero)
-                Debug.Print(VirtualKeyMessage)
+                Dim isim As New InputSimulator 'to instantiate input for window
+                isim.Keyboard.KeyUp(VirtualKeyMessage) 'keydown not working NOT WORKING IN NOTEPAD
             End If
         Catch ex As Exception
             MsgBox("Probably wrong key:"(ex.ToString))

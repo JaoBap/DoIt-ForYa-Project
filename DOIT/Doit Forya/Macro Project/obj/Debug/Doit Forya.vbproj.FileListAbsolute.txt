@@ -34,21 +34,3 @@ D:\Projects\Repos\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.vbproj.Up2D
 D:\Projects\Repos\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.exe
 D:\Projects\Repos\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.xml
 D:\Projects\Repos\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.pdb
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.exe.config
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.exe.manifest
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.application
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.exe
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.pdb
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\Doit Forya.xml
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\bin\Debug\GregsStack.InputSimulatorStandard.dll
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.vbproj.AssemblyReference.cache
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Macro_Project.MainForm.resources
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Macro_Project.Resources.resources
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.vbproj.GenerateResource.cache
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.vbproj.CoreCompileInputs.cache
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.exe.manifest
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.application
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.vbproj.Up2Date
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.exe
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.xml
-C:\Users\johnn\OneDrive\Documents\GitHub\Bootstrap-jaobaptistabvt2024@gmail.com-baptista\DoIt-ForYa-Project\DOIT\Doit Forya\Macro Project\obj\Debug\Doit Forya.pdb

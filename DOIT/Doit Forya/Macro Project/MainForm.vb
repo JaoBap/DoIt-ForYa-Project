@@ -70,9 +70,7 @@ Public Class MainForm
         Dim chrAMacro0() As Char
 
         If hwnd > 0 Then
-
-            'SetForegroundWindow(hwnd) 'sets window as active and to front
-
+            SetForegroundWindow(hwnd) 'sets window as active and to front                           
             If txtInput.Text = String.Empty And intStopMacroF = 0 Then 'Checks if directory exists then Declares and savesmacro file with variable above as its file directory
                 MsgBox("Nothing in text box, maybe no file loaded?")
 
@@ -131,14 +129,12 @@ Public Class MainForm
                 'For appending string if not start of statement
                 If i = "(" Then
                     boolParanthesis = True
-
                 ElseIf i = ")" Then
                     boolParanthesis = False
 
                     'If brackets in char
                 ElseIf i = "[" Then
                     boolBrackets = True
-
                 ElseIf i = "]" Then
                     boolBrackets = False
                     Dim interval As Integer = Integer.Parse(strInterval0)
@@ -176,9 +172,7 @@ Public Class MainForm
                     If boolholddownislooping = False Then 'Hold Key Down
                         'Only issue is that it needs to be typed the exact way
                         Try
-                            'Doesnt part lower case letters for converting to key variable well
                             Dim mykey As Keys = DirectCast([Enum].Parse(GetType(Keys), strCharacter.ToString), Keys)
-
                             classInput.SendKeystrokeUp(hwnd, KeyEventType.WM_KEYUP, mykey, vbNull, vbNull)
                         Catch ex As Exception 'If key is unrecognizable
                             classInput.SendText(strCharacter.ToString)
@@ -195,18 +189,16 @@ Public Class MainForm
                         strCharacter.Clear()
                     End If
 
-                    'If to check if code input starts with parenthesis or brackets or whatever, so if the first desire is to say its to hold the key down
-                ElseIf i = "(" Or i = "[" Or i = "{" AndAlso
-                    strCharacter IsNot Nothing And
-                    intCharCount <> chrAMacro0.Length Then 'Makes sure string is valid
+                    'If to see if start of ( [ or {
+                ElseIf i = "(" Or i = "[" Or i = "{" _ 'if I is at start of statement
+                    AndAlso strCharacter IsNot Nothing _
+                    And intCharCount <> chrAMacro0.Length Then 'Makes sure string is valid
                     'Sends input based on string
                     If boolholddownislooping = False Then 'Hold Key Down
+                        'Only issue is that it needs to be typed the exact way
                         Try
-                            'For some reason this part of the code is trying to input (?
-
                             Dim mykey As Keys = DirectCast([Enum].Parse(GetType(Keys), strCharacter.ToString), Keys)
                             classInput.SendKeystrokeUp(hwnd, KeyEventType.WM_KEYUP, mykey, vbNull, vbNull)
-
                         Catch ex As Exception 'If key is unrecognizable
                             classInput.SendText(strCharacter.ToString)
                         End Try
@@ -223,12 +215,12 @@ Public Class MainForm
                     End If
                 End If
 
-
-                'For interval between presses
-                If boolBrackets = True Then
+                'For interval
+                If boolBrackets = True Then 'For interval between presses
                     Try
+                        'For some reason, is counting double?
                         If IsNumeric(i) Then 'checks if number, if so it inputs it (Issue with double or triple digit numbers)
-                            strInterval0 &= i 'Reads the number, not adds
+                            strInterval0 &= i 'Adds current string to next string, not mathamatically
                         End If
                     Catch ex As Exception
                         MsgBox(ex.ToString)
@@ -236,7 +228,7 @@ Public Class MainForm
                 End If
 
                 'For Hold down button
-                If boolParanthesis = True Then
+                If boolParanthesis = True Then 'hold key down or not
                     If i = "D" Then 'if to press down
                         boolholddownislooping = True
                     ElseIf i = "U" Then

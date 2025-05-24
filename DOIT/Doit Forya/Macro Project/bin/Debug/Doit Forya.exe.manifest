@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Doit Forya.exe" size="87040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Doit Forya.exe" size="86528">
       <assemblyIdentity name="Doit Forya" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0T9Qzwoe1bUtk3A29133D71XM5o/5o6gN4NihSf9tMI=</dsig:DigestValue>
+        <dsig:DigestValue>7+KchWQMYhPvrf0/cHI6H2chyKZ8+9nQmgqpsYtlmlc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
